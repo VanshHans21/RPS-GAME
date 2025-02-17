@@ -44,7 +44,7 @@ const playgame =  (user)=>{
         drawSound.play();
         draws++;
         totalPlays++;
-        localStorage.setItem("drawss" ,draws);
+        sessionStorage.setItem("drawss" ,draws);
         sessionStorage.setItem("totalplayee",totalPlays);
 
     }
