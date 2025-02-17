@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sidebar Example</title>
+   <link rel="stylesheet" href= "style1.css">
+</head>
+
+<body>
+    <div class="sidebar">
+        
+        <h2>Menu</h2>
+        
+            <a class="current" href="index.html">Home</a>
+            <a class="current" href="dashboard.html">DASHBOARD</a>
+            <a class="current" href="contact.html">Contact</a>
+
+      
+    </div>
+
+
+    <div class="content">
+
+
+        <h1>Welcome To Dashboard :) </h1>
+    <div class="boxes">
+
+        <div class="box">
+            <h1 id="sh1">TOTAL PLAYS</h1>
+            <h2 id="totalplays"></h1>
+        </div>
+        <div class="box">
+            <h1>WINS</h1>
+            <h2 id="userscore"></h1>
+        </div>
+        <div class="box">
+            <h1>LOSE</h1>
+            <h2 id="compscore"></h1>
+        </div>
+        <div class="box">
+            <h1>DRAW</h1>
+            <h2 id="draws"></h1>
+        </div>
+
+    </div>
+
+
+    <div id="graph">
+        <div id="chart">
+            
+            <canvas id="myChart"></canvas>
+          </div>
+    
+    </div>
+    
+
+        
+    </div>
+
+    
+
+
+
+
+
+
+
+<script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="dash.js"></script>
+</body>
+</html>
